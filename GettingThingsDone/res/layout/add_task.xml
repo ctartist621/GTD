@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+        <TextView android:id="@+id/textView1" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center" android:text="@string/NewTask"></TextView>
+        <LinearLayout android:id="@+id/linearLayout2" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:id="@+id/textView2" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Name"></TextView>
+            <EditText android:id="@+id/editText1" android:layout_width="wrap_content" android:layout_weight="1" android:layout_height="wrap_content">
+                <requestFocus></requestFocus>
+            </EditText>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/linearLayout2" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:id="@+id/textView2" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/TaskFolder"></TextView>
+            <EditText android:id="@+id/editText2" android:layout_width="wrap_content" android:layout_weight="1" android:layout_height="wrap_content"></EditText>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/linearLayout2" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:id="@+id/textView2" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/TaskLocation"></TextView>
+            <EditText android:id="@+id/editText3" android:layout_width="wrap_content" android:layout_weight="1" android:layout_height="wrap_content"></EditText>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/linearLayout4" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+            <TextView android:id="@+id/textView2" android:textAppearance="?android:attr/textAppearanceMedium" android:text="@string/TaskDueDate" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+            <DatePicker android:layout_width="wrap_content" android:layout_gravity="center" android:id="@+id/datePicker1" android:layout_height="wrap_content"></DatePicker>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/linearLayout2" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:id="@+id/textView2" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Priority"></TextView>
+            <CheckBox android:layout_height="wrap_content" android:text="@string/HighPriority" android:layout_width="wrap_content" android:id="@+id/checkBox1"></CheckBox>
+            <CheckBox android:layout_height="wrap_content" android:text="@string/MedPriority" android:layout_width="wrap_content" android:id="@+id/checkBox2"></CheckBox>
+            <CheckBox android:layout_height="wrap_content" android:text="@string/LowPriority" android:layout_width="wrap_content" android:id="@+id/checkBox3"></CheckBox>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/linearLayout2" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:id="@+id/textView2" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/TaskAlert"></TextView>
+            <ToggleButton android:text="ToggleButton" android:id="@+id/toggleButton1" android:layout_width="wrap_content" android:layout_height="wrap_content"></ToggleButton>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/linearLayout4" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+            <TextView android:id="@+id/textView2" android:textAppearance="?android:attr/textAppearanceMedium" android:text="@string/TaskAlertDate" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+            <DatePicker android:layout_width="wrap_content" android:id="@+id/datePicker2" android:layout_height="wrap_content" android:layout_gravity="center"></DatePicker>
+            <TimePicker android:layout_width="wrap_content" android:layout_gravity="center" android:id="@+id/timePicker1" android:layout_height="wrap_content"></TimePicker>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/linearLayout4" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+            <TextView android:id="@+id/textView2" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Comments"></TextView>
+            <EditText android:id="@+id/editText4" android:layout_width="match_parent" android:layout_height="wrap_content"></EditText>
+        </LinearLayout>
+   </LinearLayout>
+</ScrollView>

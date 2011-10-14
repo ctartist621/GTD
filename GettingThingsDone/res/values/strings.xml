@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GettingThingsDone</string>
+    <string name="Name">Name: </string>
+    <string name="NewTask">New Task</string>
+    <string name="TaskFolder">Folder: </string>
+    <string name="TaskLocation">Location: </string>
+    <string name="TaskDueDate">Due Date: </string>
+    <string name="Priority">Priority: </string>
+    <string name="HighPriority">High</string>
+    <string name="MedPriority">Medium</string>
+    <string name="LowPriority">Low</string>
+    <string name="TaskAlert">Alert: </string>
+    <string name="TaskAlertDate">Alert Date &amp; Time: </string>
+    <string name="Comments">Comments: </string>
+    <string name="EditTask">Edit Task</string>
+    <string name="EditFolder">Edit Folder</string>
+</resources>
